@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+
+/*----- Test ----- */
+html {
+  scroll-behavior: smooth;
+  
+}
+.nav-item {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.nav-item:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.nav-item:hover:after {
+	width: 100%;
+	background: #FFA900;
+}
+/*----- Fonts ----- */
+
+.body {
+  font-family: Roboto;
+}
+/* ----- Navbar styling ----- */
+.container {
+
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+ 
+  
+  
+}
+
+/* ----- Navbar links ----- */
+
+.navbar-nav > li > a {
+  color: white !important;
+  font-size: 20px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  
+  
+}
+
+.navbarTitle {
+  color: white;
+
+}
+
+
+
+/* ----- Header ----- */
+.buttonLink {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  color: white !important;
+
+}
+
+.profile {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: 10rem;
+  border-radius: 25px;
+  margin-top: 5rem;
+  
+}
+.headertitleDiv {
+  float: left;
+  width: 700px;
+  margin-bottom: 3rem;
+}
+.headerTitle {
+  margin-left: 10rem;
+  font-size: 50px;
+  color: white;
+  font-family: Quicksand;
+  
+}
+.headerParagraph {
+  color: white;
+ 
+  font-size: 30px;
+  text-align: center;
+  
+  
+}
+.headerBody {
+  background-color: #292b2c;
+  
+}
+
+
+/* ----- Slide show ----- */
+.slideShow::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -30px; 
+  height: 40px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+.pLink::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -30px; 
+  height: 80px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+.d-block {
+  border-radius: 20px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.slideshowImg {
+  
+  margin: 0 auto;
+  justify-content: center;
+  display: block;
+  width: 526px;
+  height: 488px;
+  
+}
+.carousel.slide {
+  padding-top: 5rem;
+}
+/* ----- Slideshow text ----- */
+.imgtextLayer {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imgText:visited {
+  text-decoration: none;
+  color: white;
+}
+.imgText:link {
+  
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.imgText {
+  color: gray !important;
+  display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+.imgText:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.imgText:hover:after {
+	width: 100%;
+	background: #FFA900;
+} 
+
+.imgText:hover {
+  color: white !important;
+}
+
+.slideLabel {
+  color: #f0ad4e;
+  font-family: Quicksand;
+}
+
+a {
+  
+  font-family: Quicksand !important;
+}
+
+p {
+  font-family: Quicksand;
+}
+
+
+/* ----- Slide Animations ----- */
+.slideshowImg:hover .d-block {
+  opacity: 0.3;
+  
+  
+}
+
+
+
+.slideshowImg:hover .imgtextLayer {
+  opacity: 1;
+}
+/* ----- Experience ----- */
+ .experienceTitle {
+   color: white;
+   font-size: 40px;
+ }
+ .experienceBody {
+   background-color: #292b2c;
+   width: auto;
+   height: 400px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 7rem;
+ }
+   
+   .servicesImg {
+     width: 20px;
+   }
+   .servicesImg1 {
+    width: 33px;
+  }
+
+  .servicesDesc {
+    margin-top: 1rem;
+  }
+
+  .servicesDesc1 {
+    margin-top: 1rem;
+  }
+  
+  .row {
+   margin: auto !important;
+   
+
+  }
+
+
+   
+ 
+
+ /* ----- Skills Images ----- */
+ .skillsImg {
+   width: 100px;
+   height: auto;
+   padding-left: 2rem;
+   
+   
+
+ }
+ /* ----- Contact ---- */
+ .container {
+   width: 50%;
+ }
+/* ----- Buttons ---- */
+.btn {
+  font-family: Quicksand !important;
+ 
+ 
+  margin: 0 auto !important; 
+  display: block !important;
+
+}
+
+@media (min-width: 1400px) {
+  
+  /* ----- Media Query (Navbar) ----- */
+  .container {
+   
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+   
+  }
+
+  
+  
+  /* ----- Navbar links ----- */
+  
+  .navbar-nav > li > a {
+    color: white !important;
+    font-size: 30px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+    
+    
+  }
+  
+  .navbarTitle {
+    color: white;
+  
+  }
+  
+  
+  /*----- Media Query (Header) -----*/
+  .headerTitle {
+    margin-top: 110px;
+    font-size: 60px;
+    margin-left: auto;
+  }
+  .headerParagraph {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2rem;
+    padding-left: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .headertitleDiv {
+    width: auto;
+    text-align: center;
+    margin-left: 5rem;
+
+  }
+
+
+  /* ----- Media Query (Profile) ----- */
+  .profileDiv {
+margin-top: 4rem;
+  }
+  .profile {
+    
+    width: 380px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  /* ----- Media query buttons ----- */
+
+  /* ----- Media Query (Slideshow) ----- */
+  
+   
+   .d-block {
+     width: 750px;
+     height: 500px;
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 300px;
+     margin-top: 50px;
+   }
+
+   .carousel.slide {
+     padding-top: 4rem;
+
+   }
+
+   .carousel-caption {
+     padding-bottom: 0px !important;
+     margin-bottom: 100px;
+     font-size: 30px;
+   }
+
+   .carousel-indicators li{
+     
+     border-bottom: 0px !important;
+   }
+   
+   .slideshowImg {
+    width: auto;
+    height: auto;
+    
+     
+   }
+  
+
+  .btn {
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* ---- Media Query (Services) ----- */
+  .experienceBody {
+    margin-top: 3rem;
+    margin-bottom: 100px;
+    height: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  .row {
+    width: auto;
+  }
+  .experienceTitle {
+    margin-left: 4rem;
+  }
+
+  
+
+  /* ----- Media Query (contact) ----- */
+  
+  .contactContainer {
+    width: 100%;
+    height: 800px;
+    background-color: orange;
+    display: block;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+
+}
+
+/* ----- Media Query (Header) ----- */
+@media (max-width: 600px) {
+  .headerTitle {
+    font-size: 40px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+    
+  }
+  .headerParagraph {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2rem;
+    padding-left: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .headertitleDiv {
+    width: auto;
+  }
+
+  /* ----- Media Query (Profile) ----- */
+
+  .profile {
+    
+    display: block;
+    margin: 0 auto;
+  }
+  /* ----- Media query buttons ----- */
+
+  /* ----- Media Query (Slideshow) ----- */
+  .carousel-control-next, .carousel-control-prev {
+    display: none !important;
+  }
+
+   .d-block {
+     width: 300px;
+     height: 200px;
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 3rem;
+     
+    
+   }
+
+   .carousel.slide {
+     padding-top: 4rem;
+
+   }
+
+   .carousel-caption {
+     padding-bottom: 0px !important;
+   }
+
+   .carousel-indicators li{
+     
+     border-bottom: 0px !important;
+   }
+   .imgText {
+     
+     display: none;
+     
+   }
+   .slideshowImg {
+    width: auto;
+    height: 350px;
+    
+     
+   }
+  
+
+  .btn {
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* ---- Media Query (Services) ----- */
+  .experienceBody {
+    margin-top: 3rem;
+    margin-bottom: 350px;
+    height: 400px;
+  }
+
+  .row {
+    width: auto;
+  }
+  .experienceTitle {
+    text-align: center;
+    height: auto;
+  }
+
+
+  .col-sm-4 {
+    padding-top: 20px;
+    width: auto;
+    
+    
+  }
+
+  .card-body {
+     width: auto;
+     
+
+  }
+
+  /* ----- Media Query (contact) ----- */
+  .container {
+    width: 100%;
+  }
+  
+}
