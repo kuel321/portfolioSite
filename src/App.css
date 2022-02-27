@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.logo {
+ height: 150px;
+ width: 150px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
+  
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logoBody {
   display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.title{
+  margin-top: 4rem;
+  
+  
+  font-size: 9px;
+ 
+  
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid #000;
+  
+}
+.css-umwtac {
+  padding: 10px !important;
+}
+
+.tabBody {
+  
+
+  margin-top: 3rem;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+
+.tabs {
+  
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: 20px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: black !important;
+}
+.css-ahj2mt-MuiTypography-root {
+  font-size: 20px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.tabLinkItems {
+  font-size: 20px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+
+a{
+  margin-top: 3rem;
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+a::after{
+  content: "";
+  background: white;
+	mix-blend-mode:difference;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+a:hover::after{
+	height: calc(100% + 8px)
+}
+
+.cityTitle {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+/* ----- Stream Container ----- */
+.cityStreamBackButton {
+  margin-right: 2rem;
+}
+.cityBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.cityTitle {
+  margin-right: 5rem;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.cityStreamContainer {
+  
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.cityStreamTitleText {
+  font-size: 20px;
+  padding: 2px;
+  border-bottom: 2px solid #608DB2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cityStreamVideoContainer {
+  border-radius: 30px;
+}
+
+/* --------- About page ---------- */
+
+.aboutContainer {
+  margin: 10px;
+  
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutTitle {
+   border-bottom: 1px solid #608DB2;
 }

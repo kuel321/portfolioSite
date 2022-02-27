@@ -1,0 +1,75 @@
+[
+    {
+        
+        "city" : "Scott Depot",
+        "urls" : [
+           {"title" : "Winfield Exit", "url" : "http://162.210.14.137:1935/rtplive/CAM115/playlist.m3u8"},
+           {"title" : "Nitro Exit/Saint Albans Bridge", "url":"http://162.210.14.137:1935/rtplive/CAM027/playlist.m3u8"}  
+             
+        ]
+           
+        
+    },
+    {
+        
+        "city" : "Hurricane",
+        "urls" : [
+           {"title" : "Hurricane Exit", "url" : "http://162.210.14.137:1935/rtplive/CAM071/playlist.m3u8"},
+           {"title" : "Start of 35", "url":"http://162.210.14.137:1935/rtplive/CAM085/playlist.m3u8"}  
+             
+        ]
+           
+        
+    },
+    {
+        
+        "city" : "Milton",
+        "urls" : [
+           {"title" : "Milton I/C", "url" : "http://162.210.14.137:1935/rtplive/CAM012/playlist.m3u8"}
+          
+             
+        ]
+           
+        
+    },
+    {
+        
+        "city" : "Buffalo",
+        "urls" : [
+           {"title" : "Buffalo Bridge", "url" : "http://162.210.14.137:1935/rtplive/CAM086/playlist.m3u8"}
+          
+             
+        ]
+           
+        
+    },
+    {
+        
+        "city" : "Cross Lanes",
+        "urls" : [
+           {"title" : "Near Saint Albans Bridge", "url" : "http://162.210.14.137:1935/rtplive/CAM137/playlist.m3u8"},
+           {"title" : "Near Cross Lanes Exit", "url":"http://162.210.14.137:1935/rtplive/CAM136/playlist.m3u8"},
+           {"title" : "Cross Lanes Exit", "url":"http://162.210.14.137:1935/rtplive/CAM022/playlist.m3u8"}  
+             
+        ]
+           
+        
+    },
+    {
+        
+        "city" : "Charleston",
+        "urls" : [
+           {"title" : "Institute Exit", "url" : "http://162.210.14.137:1935/rtplive/CAM097/playlist.m3u8"},
+           {"title" : "Dunbar Exit", "url":"http://162.210.14.137:1935/rtplive/CAM009/playlist.m3u8"},
+           {"title" : "Montrose Exit", "url":"http://162.210.14.137:1935/rtplive/CAM013/playlist.m3u8"},
+           {"title" : "Oakwood Bridge", "url":"http://162.210.14.137:1935/rtplive/CAM014/playlist.m3u8"},
+           {"title" : "Oakwood Bridge View 2", "url":"http://162.210.14.137:1935/rtplive/CAM038/playlist.m3u8"},
+           {"title" : "MM 100/Near CAMC", "url":"http://162.210.14.137:1935/rtplive/CAM079/playlist.m3u8"},
+           {"title" : "35th St. Exit", "url":"http://162.210.14.137:1935/rtplive/CAM081/playlist.m3u8"},
+           {"title" : "Campbells Creek", "url":"http://162.210.14.137:1935/rtplive/CAM112/playlist.m3u8"}            
+             
+        ]
+           
+        
+    }
+]
